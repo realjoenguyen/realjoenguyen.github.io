@@ -2,16 +2,27 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A collection of my research projects
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: []
 horizontal: false
 ---
 
+<!-- <style>
+body .post .post-header h1.post-title {
+  font-size: 0.8rem !important;
+  line-height: 1.2 !important;
+}
+
+.projects .card-text {
+  font-size: 1.1rem !important;
+}
+</style> -->
+
 <!-- pages/projects.md -->
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
+{% if site.enable_project_categories and page.display_categories.size > 0 %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
