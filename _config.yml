@@ -265,7 +265,7 @@ display_categories: [] # these categories will be displayed on the front page of
 
 scholar:
   last_name: [Nguyen]
-  first_name: [Anh (Joe)]
+  first_name: [Anh]
 
   style: apa
   locale: en
