@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "<span style='font-size: 0.9em'><em><a href='#'>Motto</a>. Fons Vitae Eruditio Possidentis&mdash;Knowledge is the fountain of life to those who possess it.</em></span>"
 
 profile:
   align: right
