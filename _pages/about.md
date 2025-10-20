@@ -34,7 +34,9 @@ article {
 }
 </style>
 
-Currently, I'm a Ph.D. student in Artificial Intelligence at Oregon State University, advised by Professor [Stefan Lee](https://web.engr.oregonstate.edu/~leestef/). I'm working on the intersection of natural language processing (NLP) and reinforcement learning (RL): developing agents that understand human language to act accordingly. My vision is to build AI agents that can interact and cooperate with humans naturally through language to solve complex tasks, thus can free humans from repetitive and boring tasks. Specifically, I'm interested in the following research questions:
+Currently, I'm a Ph.D. student in Artificial Intelligence at Oregon State University, advised by Professor [Stefan Lee](https://web.engr.oregonstate.edu/~leestef/). I'm working on the intersection of natural language processing (NLP) and reinforcement learning (RL): developing agents that understand human language to act accordingly.
+
+My vision is to build AI agents that can cooperate with humans naturally to solve complex tasks, freeing humans from repetitive tasks. Specifically, I'm interested in the following research questions:
 
 - How to make agents ground human language to the physical world?
 - How to make agents act accordingly to environment descriptions?
