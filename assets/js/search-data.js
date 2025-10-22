@@ -75,7 +75,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/ntanh96# your LinkedIn user name", "_blank");
+          window.open("https://www.linkedin.com/in/realjoenguyen", "_blank");
         },
       },{
         id: 'social-rss',
