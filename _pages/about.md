@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<span><strong><em><a href='#'></a>I’m seeking for a research scientist/engineering intern about NLP/RL in summer 2026. Feel free to contact me. Thank you!</em></strong></span>"
+subtitle: "<span><strong><em><a href='#'></a>I’m seeking for a research scientist/engineering intern about NLP/RL in fall 2026 and summer 2027. Feel free to contact me. Thank you!</em></strong></span>"
 
 profile:
   align: right
