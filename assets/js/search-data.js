@@ -58,7 +58,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-received-scholarly-presentation-award-from-oregon-state-university-to-go-to-neurips-2025-cheers",
           title: 'I received Scholarly Presentation Award from Oregon State University to go to NeurIPS...',
           description: "",
-          section: "News",},{id: "news-submitted-look-it-up-before-looking-ahead-tutorials-reduce-the-benefit-of-world-models-in-computer-use-agents-submitted-to-emnlp-2026-fingers-crossed",
+          section: "News",},{id: "news-submitted-look-it-up-before-looking-ahead-tutorials-reduce-the-benefit-of-world-models-in-computer-use-agents-to-emnlp-2026-fingers-crossed",
           title: 'Submitted “Look It Up Before Looking Ahead: Tutorials Reduce the Benefit of World...',
           description: "",
           section: "News",},{id: "projects-how-to-make-agents-understand-the-environment-descriptions-and-act-accordingly",
