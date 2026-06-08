@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Submitted "[Look It Up Before Looking Ahead: Tutorials Reduce the Benefit of World Models in Computer-Use Agents](/assets/pdf/EMNLP_2026_preprint.pdf)" to EMNLP 2026.
+Submitted "[Look It Up Before Looking Ahead: Tutorials Reduce the Benefit of World Models in Computer-Use Agents](/assets/pdf/EMNLP_2026_preprint.pdf)" to EMNLP 2026. Fingers crossed!
