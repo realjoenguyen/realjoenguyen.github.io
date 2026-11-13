@@ -15,7 +15,7 @@
           {% assign news_limit = news_size %}
         {% endif %}
         {% for item in news limit: news_limit %}
-          <tr>
+          <tr{% if include.limit and forloop.index > 2 %} class="news-more" style="display: none"{% endif %}>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
               {% if item.inline %}
@@ -27,6 +27,14 @@
           </tr>
         {% endfor %}
       </table>
+      {% if include.limit and news_limit > 2 and news_size > 2 %}
+        <a
+          href="#"
+          class="news-toggle"
+          onclick="var rows = document.querySelectorAll('.news-more'); var show = rows[0].style.display === 'none'; rows.forEach(function (r) { r.style.display = show ? '' : 'none'; }); this.textContent = show ? 'see less' : 'see more'; return false;"
+          >see more</a
+        >
+      {% endif %}
     </div>
   {% else %}
     <p>No news so far...</p>
