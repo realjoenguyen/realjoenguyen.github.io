@@ -15,7 +15,11 @@
           {% assign news_limit = news_size %}
         {% endif %}
         {% for item in news limit: news_limit %}
-          <tr{% if include.limit and forloop.index > 2 %} class="news-more" style="display: none"{% endif %}>
+          <tr
+            {% if include.limit and forloop.index > 2 %}
+              class="news-more" style="display: none"
+            {% endif %}
+          >
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
               {% if item.inline %}
